@@ -1,0 +1,11 @@
+export { IRepository } from "./IRepository";
+export { BaseRepository } from "./BaseRepository";
+export { SportRepository } from "./SportRepository";
+export { ChampionshipRepository } from "./ChampionshipRepository";
+export { TeamRepository } from "./TeamRepository";
+export { MatchRepository } from "./MatchRepository";
+export { ResultRepository } from "./ResultRepository";
+export { StandingsRepository } from "./StandingsRepository";
+export { SeasonRepository } from "./SeasonRepository";
+export { VenueRepository } from "./VenueRepository";
+export { PlayerRepository } from "./PlayerRepository";

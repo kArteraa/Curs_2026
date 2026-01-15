@@ -1,0 +1,9 @@
+export { SportService } from "./SportService";
+export { ChampionshipService } from "./ChampionshipService";
+export { TeamService } from "./TeamService";
+export { MatchService } from "./MatchService";
+export { ResultService } from "./ResultService";
+export { StandingsService } from "./StandingsService";
+export { SeasonService } from "./SeasonService";
+export { VenueService } from "./VenueService";
+export { PlayerService } from "./PlayerService";

@@ -1,0 +1,40 @@
+{
+    "name": "tour-packages-server",
+    "version": "1.0.0",
+    "description": "Серверное приложение для управления туристическими путевками",
+    "scripts": {
+        "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "migrate": "ts-node src/scripts/migrate.ts",
+        "seed": "ts-node src/scripts/seed.ts",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:coverage": "jest --coverage",
+        "docker:up": "docker-compose up -d",
+        "docker:down": "docker-compose down",
+        "docker:logs": "docker-compose logs -f"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.6",
+        "@types/jest": "^29.5.12",
+        "@types/node": "^25.0.8",
+        "@types/pg": "^8.11.10",
+        "@types/swagger-ui-express": "^4.1.6",
+        "@types/swagger-jsdoc": "^6.0.4",
+        "jest": "^29.7.0",
+        "prettier": "^3.7.4",
+        "ts-jest": "^29.1.2",
+        "ts-node": "^10.9.2",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "pg": "^8.13.1",
+        "dotenv": "^16.4.7",
+        "axios": "^1.7.9",
+        "swagger-ui-express": "^5.0.1",
+        "swagger-jsdoc": "^6.2.8"
+    }
+}
