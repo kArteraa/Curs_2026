@@ -10,7 +10,7 @@
 - **Docker** - контейнеризация
 - **Swagger/OpenAPI** - документация API
 - **ООП** - объектно-ориентированное программирование
-- **Паттерны**: MVC + 2 паттерна GoF (Singleton, Repository, Factory)
+- **Паттерны**: MVC + 3 паттерна GoF (Singleton, Repository, Factory)
 
 ## Требования
 
@@ -280,7 +280,3 @@ GET /api/tour-packages/destination-type/1/average-price
   "error": "Detailed error information"
 }
 ```
-
-## Лицензия
-
-MIT
